@@ -18,7 +18,7 @@ yarn add freezly
 
 ## Usage
 
-The most basic usage is achieved with the following command, replacing the source path with the path to your source code to transform and the output path with the path to where you want the transformed code to be written.
+Below is an example of how to use **freezly**.
 
 ```js
 import deepFreeze from 'freezly'
@@ -31,3 +31,5 @@ const frozenObject = deepFreeze({
 frozenObject.baz = 'spam' // Can't add properties to frozen object
 frozenObject.foo.push('baz') // Can't push items to frozen array
 ```
+
+> Note: Once you freeze an object any attempts to mutate any part of the object will result in an error being thrown.
