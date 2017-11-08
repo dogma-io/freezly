@@ -2260,6 +2260,21 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+lintly@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.1.tgz#77a8969674a04c2f43c4a2a95525748a36ab1d6c"
+  dependencies:
+    babel-eslint "8.0.2"
+    eslint "4.10.0"
+    eslint-config-standard "10.2.1"
+    eslint-plugin-flowtype "2.39.1"
+    eslint-plugin-import "2.8.0"
+    eslint-plugin-node "5.2.1"
+    eslint-plugin-prettier "2.3.1"
+    eslint-plugin-promise "3.6.0"
+    eslint-plugin-standard "3.0.1"
+    prettier "1.8.1"
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
