@@ -1,0 +1,52 @@
+{
+  "name": "freezly",
+  "version": "0.0.1",
+  "description": "Small utility for deeply freezing objects in JavaScript.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "nodely -s ./src -o ./lib",
+    "test": "eslint . && flow && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dogma-io/freezly.git"
+  },
+  "keywords": [
+    "object",
+    "freeze",
+    "immutable",
+    "immutability"
+  ],
+  "author": "Matthew Dahl <https://github.com/dogma-io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogma-io/freezly/issues"
+  },
+  "homepage": "https://github.com/dogma-io/freezly#readme",
+  "devDependencies": {
+    "babel-eslint": "8.0.1",
+    "eslint": "4.9.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-prettier": "2.3.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "flow-bin": "0.57.3",
+    "jest-cli": "21.2.1",
+    "nodely": "0.0.5",
+    "prettier": "1.7.4"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov"
+    ],
+    "testRegex": "/__tests__/.*-test\\.js$"
+  }
+}
