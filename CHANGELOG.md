@@ -1,3 +1,7 @@
+## 0.0.4
+
+*   Upgraded dependencies to latest versions.
+
 ## 0.0.3
 
 *   Switched to using [lintly](https://github.com/dogma-io/lintly) for linting to reduce boilerplate in this repo.
