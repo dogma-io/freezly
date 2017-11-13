@@ -1,3 +1,7 @@
+## 0.0.6
+
+*   Update `package.json` to limit what files are included in npm package.
+
 ## 0.0.5
 
 *   Update Jest config to err if coverage drops below 100%.
