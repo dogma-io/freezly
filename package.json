@@ -1,6 +1,6 @@
 {
   "name": "freezly",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Small utility for deeply freezing objects in JavaScript.",
   "main": "lib/index.js",
   "scripts": {
@@ -38,6 +38,14 @@
       "json-summary",
       "lcov"
     ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
     "testRegex": "/__tests__/.*-test\\.js$"
   }
 }

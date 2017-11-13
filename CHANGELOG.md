@@ -1,3 +1,7 @@
+## 0.0.5
+
+*   Update Jest config to err if coverage drops below 100%.
+
 ## 0.0.4
 
 *   Upgraded dependencies to latest versions.
