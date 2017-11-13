@@ -1,6 +1,6 @@
 {
   "name": "freezly",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Small utility for deeply freezing objects in JavaScript.",
   "main": "lib/index.js",
   "files": ["lib"],

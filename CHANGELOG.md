@@ -1,3 +1,7 @@
+## 0.0.7
+
+*   Added [LICENSE.md](LICENSE.md).
+
 ## 0.0.6
 
 *   Update `package.json` to limit what files are included in npm package.
