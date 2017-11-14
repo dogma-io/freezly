@@ -2334,9 +2334,9 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lintly@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.6.tgz#3d1380ff1d6ce2243897f29d9c61dd84d9935cb6"
+lintly@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.7.tgz#27e3a6435c06107cf5e8121fb28ff1a4e4de907d"
   dependencies:
     babel-eslint "8.0.2"
     eslint "4.11.0"
@@ -2521,9 +2521,9 @@ node-watch@0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.5.5.tgz#34865ba8bc6861ab086acdcc3403e40ed55c3274"
 
-nodely@0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.13.tgz#90775663a9f86e66382f4f06af25ab05e1c5524f"
+nodely@0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.14.tgz#7af867be1395d5424bc9a522e760f62a16c98b08"
   dependencies:
     babel-core "6.26.0"
     babel-preset-env "1.6.1"

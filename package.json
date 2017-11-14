@@ -1,6 +1,6 @@
 {
   "name": "freezly",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Small utility for deeply freezing objects in JavaScript.",
   "main": "lib/index.js",
   "files": ["lib"],
@@ -13,10 +13,13 @@
     "url": "git+ssh://git@github.com/dogma-io/freezly.git"
   },
   "keywords": [
-    "object",
+    "data",
     "freeze",
+    "functional",
     "immutable",
-    "immutability"
+    "immutability",
+    "object",
+    "stateless"
   ],
   "author": "Matthew Dahl <https://github.com/dogma-io>",
   "license": "MIT",
@@ -27,8 +30,8 @@
   "devDependencies": {
     "flow-bin": "0.59.0",
     "jest-cli": "21.2.1",
-    "lintly": "0.0.6",
-    "nodely": "0.0.13"
+    "lintly": "0.0.7",
+    "nodely": "0.0.14"
   },
   "jest": {
     "collectCoverage": true,

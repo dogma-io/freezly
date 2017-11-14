@@ -1,3 +1,7 @@
+## 0.0.9
+
+*   Added coverage badge to [README.md](README.md).
+
 ## 0.0.8
 
 *   Added npm badge to [README.md](README.md).
