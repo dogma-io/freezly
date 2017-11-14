@@ -908,8 +908,8 @@ camelcase@^4.1.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
 caniuse-lite@^1.0.30000760:
-  version "1.0.30000760"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000760.tgz#ec720395742f1c7ec8947fd6dd2604e77a8f98ff"
+  version "1.0.30000764"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000764.tgz#97ea7472f9d3e691eede34f21983cfc219ac7842"
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -2334,9 +2334,9 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lintly@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.4.tgz#185ed2d29b1c4021349783efdbc60d27724932b0"
+lintly@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.6.tgz#3d1380ff1d6ce2243897f29d9c61dd84d9935cb6"
   dependencies:
     babel-eslint "8.0.2"
     eslint "4.11.0"
@@ -2521,9 +2521,9 @@ node-watch@0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.5.5.tgz#34865ba8bc6861ab086acdcc3403e40ed55c3274"
 
-nodely@0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.11.tgz#c6ffefb3ff0b245ef881e4ce9c0749c08f67abfa"
+nodely@0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/nodely/-/nodely-0.0.13.tgz#90775663a9f86e66382f4f06af25ab05e1c5524f"
   dependencies:
     babel-core "6.26.0"
     babel-preset-env "1.6.1"

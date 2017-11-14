@@ -1,4 +1,4 @@
-# freezly
+# freezly [![NPM][npm-img]][npm-url]
 
 Small utility for deeply freezing objects in JavaScript.
 
@@ -33,3 +33,7 @@ frozenObject.foo.push('baz') // Can't push items to frozen array
 ```
 
 > Note: Once you freeze an object any attempts to mutate any part of the object will result in an error being thrown.
+
+[npm-img]: https://img.shields.io/npm/v/freezly.svg "NPM Version"
+[npm-url]: https://www.npmjs.com/package/freezly
+

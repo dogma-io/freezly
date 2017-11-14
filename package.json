@@ -1,6 +1,6 @@
 {
   "name": "freezly",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Small utility for deeply freezing objects in JavaScript.",
   "main": "lib/index.js",
   "files": ["lib"],
@@ -27,8 +27,8 @@
   "devDependencies": {
     "flow-bin": "0.59.0",
     "jest-cli": "21.2.1",
-    "lintly": "0.0.4",
-    "nodely": "0.0.11"
+    "lintly": "0.0.6",
+    "nodely": "0.0.13"
   },
   "jest": {
     "collectCoverage": true,
