@@ -3,9 +3,14 @@
   "version": "0.0.9",
   "description": "Small utility for deeply freezing objects in JavaScript.",
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "nodely -s ./src -o ./lib",
+    "build": "nodely -s ./src -o ./lib # && npm run gen-types",
+    "gen-types": "flow gen-flow-files src --out-dir lib",
+    "postpublish": "codecov",
+    "prepublishOnly": "npm run build",
     "test": "lintly src && flow && jest"
   },
   "repository": {
@@ -28,10 +33,11 @@
   },
   "homepage": "https://github.com/dogma-io/freezly#readme",
   "devDependencies": {
+    "codecov": "3.0.0",
     "flow-bin": "0.59.0",
     "jest-cli": "21.2.1",
-    "lintly": "0.0.7",
-    "nodely": "0.0.14"
+    "lintly": "0.0.8",
+    "nodely": "0.0.20"
   },
   "jest": {
     "collectCoverage": true,

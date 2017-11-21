@@ -1,3 +1,7 @@
+## 0.0.10
+
+*   Generate flow types in output directory.
+
 ## 0.0.9
 
 *   Added coverage badge to [README.md](README.md).

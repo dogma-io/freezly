@@ -1,5 +1,5 @@
 /**
- * @noflow
+ * @flow
  */
 
 /* eslint-disable flowtype/require-parameter-type */
@@ -9,7 +9,7 @@
  * @param {*} object - object to deep freeze
  * @returns {*} deeply frozen object
  */
-export default function deepFreeze(object) {
+export default function deepFreeze(object: *) {
   if (Array.isArray(object)) {
     return Object.freeze(object.map(item => deepFreeze(item)))
   } else if (typeof object === 'object' && object !== null) {
