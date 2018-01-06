@@ -34,10 +34,10 @@
   "homepage": "https://github.com/dogma-io/freezly#readme",
   "devDependencies": {
     "codecov": "3.0.0",
-    "flow-bin": "0.59.0",
-    "jest-cli": "21.2.1",
-    "lintly": "0.0.8",
-    "nodely": "0.0.20"
+    "flow-bin": "0.62.0",
+    "jest-cli": "22.0.4",
+    "lintly": "0.0.13",
+    "nodely": "0.0.21"
   },
   "jest": {
     "collectCoverage": true,
