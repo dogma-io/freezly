@@ -1273,6 +1273,21 @@ escodegen@^1.9.0:
   optionalDependencies:
     source-map "~0.5.6"
 
+eslint-config-lintly@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-lintly/-/eslint-config-lintly-0.0.2.tgz#c2b244d3af69fb2fa7329cb3b6e7d575f27521a2"
+  dependencies:
+    babel-eslint "8.1.2"
+    eslint-config-standard "11.0.0-beta.0"
+    eslint-plugin-flowtype "2.41.0"
+    eslint-plugin-import "2.8.0"
+    eslint-plugin-node "5.2.1"
+    eslint-plugin-prettier "2.4.0"
+    eslint-plugin-promise "3.6.0"
+    eslint-plugin-react "7.5.1"
+    eslint-plugin-standard "3.0.1"
+    prettier "1.9.2"
+
 eslint-config-standard@11.0.0-beta.0:
   version "11.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-11.0.0-beta.0.tgz#f8afe69803d95c685a4b8392b8793188eb03cbb3"
@@ -2518,21 +2533,12 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lintly@0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.13.tgz#9f4f366d9af872f76f3500d6432c87d29b7c5b70"
+lintly@0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.15.tgz#776080f61263271e10bc03162e48f05fa1c2c071"
   dependencies:
-    babel-eslint "8.1.2"
     eslint "4.14.0"
-    eslint-config-standard "11.0.0-beta.0"
-    eslint-plugin-flowtype "2.41.0"
-    eslint-plugin-import "2.8.0"
-    eslint-plugin-node "5.2.1"
-    eslint-plugin-prettier "2.4.0"
-    eslint-plugin-promise "3.6.0"
-    eslint-plugin-react "7.5.1"
-    eslint-plugin-standard "3.0.1"
-    prettier "1.9.2"
+    eslint-config-lintly "0.0.2"
 
 load-json-file@^1.0.0:
   version "1.1.0"

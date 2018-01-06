@@ -1,5 +1,6 @@
 ## 0.0.10
 
+*   Upgraded to latest version of lintly and added ESLint config file.
 *   Generate flow types in output directory.
 
 ## 0.0.9
