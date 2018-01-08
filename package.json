@@ -1,6 +1,6 @@
 {
   "name": "freezly",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Small utility for deeply freezing objects in JavaScript.",
   "main": "lib/index.js",
   "files": [
@@ -33,11 +33,17 @@
   },
   "homepage": "https://github.com/dogma-io/freezly#readme",
   "devDependencies": {
+    "@babel/core": "7.0.0-beta.36",
+    "@babel/preset-env": "7.0.0-beta.36",
+    "@babel/preset-flow": "7.0.0-beta.36",
+    "@babel/preset-react": "7.0.0-beta.36",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "22.0.4",
     "codecov": "3.0.0",
-    "flow-bin": "0.62.0",
+    "flow-bin": "0.63.1",
     "jest-cli": "22.0.4",
-    "lintly": "0.0.15",
-    "nodely": "0.0.21"
+    "lintly": "0.0.18",
+    "nodely": "0.0.22"
   },
   "jest": {
     "collectCoverage": true,

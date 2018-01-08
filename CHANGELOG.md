@@ -1,3 +1,7 @@
+## 0.0.11
+
+*   Upgrade to latest version of dependencies and use Babel 7 beta.
+
 ## 0.0.10
 
 *   Upgraded to latest version of lintly and added ESLint config file.
