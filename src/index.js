@@ -11,7 +11,11 @@
  */
 export default function deepFreeze(object: *): * {
   if (Array.isArray(object)) {
-    return Object.freeze(object.map((item): * => deepFreeze(item)))
+    return Object.freeze(
+      object.map((item): * => {
+        return deepFreeze(item)
+      }),
+    )
   } else if (typeof object === 'object' && object !== null) {
     return Object.freeze(
       Object.keys(object).reduce((obj, key): * => {
