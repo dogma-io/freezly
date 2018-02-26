@@ -2,6 +2,13 @@
 
 Small utility for deeply freezing objects in JavaScript.
 
+## Table of Contents
+
+*   [Installation](#installation)
+*   [Documentation](#documentation)
+*   [Contributing](#contributing)
+*   [License](#license)
+
 ## Installation
 
 **npm**
@@ -16,7 +23,7 @@ npm install freezly
 yarn add freezly
 ```
 
-## Usage
+## Documentation
 
 Below is an example of how to use **freezly**.
 
@@ -34,9 +41,16 @@ frozenObject.foo.push('baz') // Can't push items to frozen array
 
 > Note: Once you freeze an object any attempts to mutate any part of the object will result in an error being thrown.
 
+## Contributing
+
+Please see the [contributing guide](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE.md)
+
 [cov-img]: https://img.shields.io/codecov/c/github/dogma-io/freezly.svg "Code Coverage"
 [cov-url]: https://codecov.io/gh/dogma-io/freezly
 
 [npm-img]: https://img.shields.io/npm/v/freezly.svg "NPM Version"
 [npm-url]: https://www.npmjs.com/package/freezly
-
