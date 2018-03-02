@@ -20,7 +20,6 @@ export default function deepFreeze(object: *): * {
     return Object.freeze(
       Object.keys(object).reduce((obj, key): * => {
         return Object.assign(obj, {
-          // $FlowFixMe - Flow will complain about accessing computed property
           [key]: deepFreeze(object[key]),
         })
       }, {}),

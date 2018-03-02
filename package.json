@@ -40,6 +40,9 @@
     "lintly": "0.0.25",
     "nodely": "0.0.29"
   },
+  "engines": {
+    "node": ">= 6"
+  },
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
