@@ -1,17 +1,6 @@
-# 0.3.0 (2018-03-03)
-
-*   Changed Node target version to 6 since it is the current LTS.
-
-
 # 0.2.0 (2018-03-03)
 
 *   Changed Node target version to 6 since it is the current LTS.
-
-
-# 0.1.0 (2018-03-03)
-
-*   Changed Node target version to 6 since it is the current LTS.
-
 
 # 0.0.11
 
