@@ -26,6 +26,8 @@ yarn add freezly
 
 ## Documentation
 
+This project literally exports a single function which is used to deeply freeze any Javascript object. All nested arrays and objects become frozen, ensuring the entire object can't be mutated. This is primarily useful in functional programming, if you want to guarantee an object passed into a function isn't mutated by said function. However in practice deeply freezing objects comes with some amount of a performance cost so it is recommended to only deep freeze objects in a development environment and/or tests.
+
 Below is an example of how to use **freezly**.
 
 ```js
