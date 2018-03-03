@@ -6,6 +6,7 @@ Small utility for deeply freezing objects in JavaScript.
 
 *   [Installation](#installation)
 *   [Documentation](#documentation)
+*   [Code of Conduct](#code-of-conduct)
 *   [Contributing](#contributing)
 *   [License](#license)
 
@@ -40,6 +41,10 @@ frozenObject.foo.push('baz') // Can't push items to frozen array
 ```
 
 > Note: Once you freeze an object any attempts to mutate any part of the object will result in an error being thrown.
+
+## Code of Conduct
+
+Please see the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Contributing
 

@@ -1,3 +1,17 @@
+# 0.2.0 (2018-03-03)
+
+*   Added code of conduct.
+*   Changed target Node version from 4 to 6, which is the current LTS.
+*   Setup CI.
+
+
+# 0.1.0 (2018-03-03)
+
+*   Added code of conduct.
+*   Changed target Node version from 4 to 6, which is the current LTS.
+*   Setup CI.
+
+
 ## 0.0.11
 
 *   Upgrade to latest version of dependencies and use Babel 7 beta.

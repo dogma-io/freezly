@@ -3,5 +3,9 @@
     "changelog": {
       "enabled": true
     }
+  },
+  "gitUser": {
+    "email": "dogmaiobot@gmail.com",
+    "name": "dogma-io-bot"
   }
 }
