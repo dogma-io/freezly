@@ -7,7 +7,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "nodely -s ./src -o ./lib # && npm run gen-types",
+    "build": "nodely -s ./src -o ./lib -n 1 # && npm run gen-types",
     "gen-types": "flow gen-flow-files src --out-dir lib",
     "postpublish": "codecov",
     "prepublishOnly": "npm run build",
