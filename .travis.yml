@@ -12,10 +12,10 @@ env:
     secure: hPSuklbeoCEX6DwrFyGGMIiQVW8+jLxHnT3sjNfhWszk5xryCr8lKjxY9GPoHqqOrKcXlVg7JyAiSB6O3r0CXof6Zj21i+L5cyBecVUgdTdN5S75clNW3r3oAALp4djQie/GhVm5a0KAag3yoGmgHBiUusWf81D99cwrXzsmj443MTy6jWlEtgR5anGw0aJD4IRSnf7Jfr4Ms2GUQdSmawgw+iScRXz0svNF3TANrc7OoHBLxlvHo1nBDZW+h1jPVQPCdq4599uReNGfIMso+VmBVYpWsuvCtmKr1vY3tWL4elpzbzGII+wmDk61QX+Rpfclmej0vPI+yWd1WAKpt4ZN5rh0GLw7/H6BM3RYeXUg1Vz+VzgTx+/3VKz9y8l7/QspWn9+5yn38NdUBx57/sleX6vlOfeHNgxCXF42THbgoA21Ek4LkUjBfIdpEGNtdl66qZgPg0dwfKikKzI5MjjtLZrPprsZgl95/JBqLX6ygH0pCayAXrYpOgU5vd2K+/ABMZQpuuPKjAz3AZDnTQuaW6rsR0pRB7Y24e1xAWf2rDV71ZkTvQ6Pr9dy8w4O+xjUzrW407iuyhAquPEBSsseMoIaa7tE/EsvTSu1S0pajlw8QQpoyptQujyOGTsLfZ1U0wNV55xNfVE0WiblDGDvruhHqUyZEVt3PDhvRFI=
 
 before_install:
-  - npm install -g pr-bumper@^3.0.0
+  - yarn add --global pr-bumper@^3.0.0
 
 install:
-  - $(npm root -g)/pr-bumper/.travis/maybe-install.sh
+  - yarn install
 
 before_script:
   - $(npm root -g)/pr-bumper/.travis/maybe-check-scope.sh
