@@ -9,7 +9,7 @@
  * @param {*} object - object to deep freeze
  * @returns {*} deeply frozen object
  */
-export default function deepFreeze(object: *): * {
+export function deepFreeze(object: any): any { // eslint-disable-line
   if (Array.isArray(object)) {
     return Object.freeze(
       object.map((item): * => {

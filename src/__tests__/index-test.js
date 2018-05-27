@@ -1,4 +1,4 @@
-import deepFreeze from '../index'
+import {deepFreeze} from '../index'
 
 describe('index', () => {
   it('should freeze array', () => {
