@@ -1,3 +1,8 @@
+# 2.0.0 (2018-05-28)
+
+*   Switched from a default export to a named export, `deepFreeze`.
+*   Upgrade development dependencies to latest versions.
+
 # 1.0.0 (2018-03-03)
 
 *   First official release is finally here!
