@@ -1,3 +1,7 @@
+# 2.0.1 (2018-06-06)
+
+*   Make sure build is ES5.
+
 # 2.0.0 (2018-05-28)
 
 *   Switched from a default export to a named export, `deepFreeze`.
