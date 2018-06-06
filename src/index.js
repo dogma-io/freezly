@@ -12,9 +12,11 @@
 export function deepFreeze(object: any): any { // eslint-disable-line
   if (Array.isArray(object)) {
     return Object.freeze(
-      object.map((item): * => {
-        return deepFreeze(item)
-      }),
+      object.map(
+        (item): * => {
+          return deepFreeze(item)
+        },
+      ),
     )
   } else if (typeof object === 'object' && object !== null) {
     return Object.freeze(
